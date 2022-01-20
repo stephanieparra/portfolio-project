@@ -1,5 +1,5 @@
 body {
-  background-color: bisque;
+  background-color: #fff;
 }
 
 h1 {
@@ -50,4 +50,8 @@ a {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+}
+
+.project-description {
+  padding: 120px 40px 120px 20px;
 }
