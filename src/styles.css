@@ -72,3 +72,7 @@ a {
 .project-description {
   padding: 120px 40px 120px 20px;
 }
+
+.project-image {
+  border-radius: 5px;
+}
