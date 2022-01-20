@@ -4,13 +4,19 @@ body {
 
 h1 {
   color: #000;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+  font-family: "Yeseva One", cursive;
+  font-weight: normal;
   margin: 85px 50px 30px 50px;
 }
 
+h2 {
+  color: #000;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -28,11 +34,22 @@ a {
 .view-link {
   margin: 20px 50px;
   font-size: 20px;
-  color: #000;
+  color: #f25244;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+}
+
+.view-link:hover {
+  color: #faa28c;
+}
+
+.section-title {
+  font-size: 40px;
+  font-family: "Yeseva One", cursive;
 }
 
 .primary-button {
-  background: blueviolet;
+  background: #42a4a3;
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -43,7 +60,7 @@ a {
 }
 
 .secondary-button {
-  background: blueviolet;
+  background: #d8b851;
   border-radius: 4px;
   color: white;
   font-size: 18px;
