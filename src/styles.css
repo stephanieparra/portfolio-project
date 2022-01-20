@@ -12,10 +12,42 @@ h1 {
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+a {
+  color: #000;
+}
+
+.hero {
+  padding-bottom: 250px;
+  margin: 0;
 }
 
 .view-link {
   margin: 20px 50px;
   font-size: 20px;
   color: #000;
+}
+
+.primary-button {
+  background: blueviolet;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.secondary-button {
+  background: blueviolet;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  text-decoration: none;
 }
