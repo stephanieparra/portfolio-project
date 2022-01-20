@@ -1,5 +1,5 @@
 body {
-  background-color: #e4bcfe;
+  background-color: #f1eff1;
 }
 
 h1 {
@@ -37,19 +37,12 @@ a {
   font-family: "Space Mono";
   color: #000;
   text-decoration: underline;
-  text-decoration-color: #f1eb5b;
+  text-decoration-color: #c847d0;
   font-size: 24px;
 }
 
-.highlight-1 {
-  background: linear-gradient(120deg, #f1eb5b 0%, #f1eb5b 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 10%;
-  background-position: 0 85%;
-}
-
-.highlight-2 {
-  background: linear-gradient(120deg, #73dfa1 0%, #73dfa1 100%);
+.highlight {
+  background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
   background-repeat: no-repeat;
   background-size: 100% 10%;
   background-position: 0 85%;
@@ -63,8 +56,8 @@ a {
 }
 
 .primary-button {
-  background: #73dfa1;
-  border: 1px solid #fff;
+  background: #c7f4f1;
+  border: 4px solid #faa28c;
   border-radius: 4px;
   color: #000;
   font-family: "Space Mono", monospace;
@@ -76,15 +69,16 @@ a {
 }
 
 .primary-button:hover {
-  color: #fff;
-  background: #140941;
+  color: #000;
+  background: #faa28c;
+  border: 4px solid #c7f4f1;
 }
 
 .secondary-button {
-  background: #ee237f;
-  border: 1px solid #fff;
+  background: #cc99fe;
+  border: 4px solid #c847d0;
   border-radius: 4px;
-  color: #fff;
+  color: #000;
   font-family: "Space Mono", monospace;
   font-size: 20px;
   line-height: 27px;
@@ -93,8 +87,9 @@ a {
 }
 
 .secondary-button:hover {
-  color: #fff;
-  background: #140941;
+  color: #000;
+  background: #c847d0;
+  border: 4px solid #cc99fe;
 }
 
 .project-description {
@@ -102,5 +97,5 @@ a {
 }
 
 .project-image {
-  border-radius: 5px;
+  border-radius: 7px;
 }
