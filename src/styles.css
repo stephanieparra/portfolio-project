@@ -6,11 +6,12 @@ h1 {
   color: #000;
   font-family: "Space Mono", monospace;
   font-weight: normal;
-  margin: 85px 50px 30px 50px;
+  margin: 130px 50px 30px 50px;
 }
 
 h2 {
   color: #000;
+  font-size: 40px;
   font-family: "Space Mono", monospace;
   font-weight: bold;
 }
@@ -31,44 +32,38 @@ a {
   margin: 0;
 }
 
-.view-link {
-  margin: 20px 50px;
-}
-
-.view-link a {
-  text-decoration: none;
-  font-size: 30px;
-  color: #140941;
-  font-family: "Space Mono", monospace;
-  text-decoration: none;
-}
-
-.view-link a:hover {
+.view-work {
+  padding-top: 90px;
+  font-family: "Space Mono";
+  color: #000;
   text-decoration: underline;
+  text-decoration-color: #f1eb5b;
+  font-size: 24px;
 }
 
 .highlight-1 {
   background: linear-gradient(120deg, #f1eb5b 0%, #f1eb5b 100%);
   background-repeat: no-repeat;
-  background-size: 100% 20%;
-  background-position: 0 60%;
+  background-size: 100% 10%;
+  background-position: 0 85%;
 }
 
 .highlight-2 {
-  background: linear-gradient(120deg, #ee237f 0%, #ee237f 100%);
+  background: linear-gradient(120deg, #73dfa1 0%, #73dfa1 100%);
   background-repeat: no-repeat;
-  background-size: 100% 20%;
-  background-position: 0 60%;
+  background-size: 100% 10%;
+  background-position: 0 85%;
 }
 
 .section-title {
   font-size: 40px;
+  font-weight: bold;
   font-family: "Space Mono", monospace;
-  padding: 200px 20px 50px 20px;
+  padding: 125px 20px 50px 20px;
 }
 
 .primary-button {
-  background: #73DFA1;
+  background: #73dfa1;
   border: 1px solid #fff;
   border-radius: 4px;
   color: #000;
@@ -86,7 +81,7 @@ a {
 }
 
 .secondary-button {
-  background: #EE237F;
+  background: #ee237f;
   border: 1px solid #fff;
   border-radius: 4px;
   color: #fff;
