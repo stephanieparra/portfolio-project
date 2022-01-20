@@ -1,5 +1,5 @@
 body {
-  background-color: #E4BCFE;
+  background-color: #e4bcfe;
 }
 
 h1 {
@@ -47,15 +47,15 @@ a {
   text-decoration: underline;
 }
 
-.highlight-1{
-  background: linear-gradient(120deg, #F1EB5B 0%, #F1EB5B 100%);
+.highlight-1 {
+  background: linear-gradient(120deg, #f1eb5b 0%, #f1eb5b 100%);
   background-repeat: no-repeat;
   background-size: 100% 20%;
   background-position: 0 60%;
 }
 
 .highlight-2 {
-  background: linear-gradient(120deg, #EE237F 0%, #EE237F 100%);
+  background: linear-gradient(120deg, #ee237f 0%, #ee237f 100%);
   background-repeat: no-repeat;
   background-size: 100% 20%;
   background-position: 0 60%;
@@ -64,13 +64,12 @@ a {
 .section-title {
   font-size: 40px;
   font-family: "Space Mono", monospace;
-  padding: 200px 20px 10px 20px;
+  padding: 200px 20px 50px 20px;
 }
 
-
-
 .primary-button {
-  background: #6DCBDB;
+  background: #73DFA1;
+  border: 1px solid #fff;
   border-radius: 4px;
   color: #000;
   font-family: "Space Mono", monospace;
@@ -82,14 +81,15 @@ a {
 }
 
 .primary-button:hover {
-  color: #000;
-  background: #F1EB5B;
+  color: #fff;
+  background: #140941;
 }
 
 .secondary-button {
-  background: #F281AB;
+  background: #EE237F;
+  border: 1px solid #fff;
   border-radius: 4px;
-  color: #000;
+  color: #fff;
   font-family: "Space Mono", monospace;
   font-size: 20px;
   line-height: 27px;
@@ -99,7 +99,7 @@ a {
 
 .secondary-button:hover {
   color: #fff;
-  background: #7C469A;
+  background: #140941;
 }
 
 .project-description {
