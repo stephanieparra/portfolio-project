@@ -119,16 +119,23 @@ a {
   border-radius: 7px;
 }
 
+.adobe {
+  font-weight: bold;
+  font-style: italic;
+}
+
 /* Media Queries*/
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 25px;
-    padding: 0;
+    font-size: 28px;
+    padding-top: 0;
     line-height: 1.5;
   }
-  .hero {
-    padding-bottom: 0;
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
   }
 
   .view-work {
@@ -139,15 +146,24 @@ a {
 
   .section-title {
     font-size: 25px;
-  }
-
-  h2 {
-    font-size: 25px;
+    padding-top: 30px;
     text-align: center;
   }
 
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .primary-button {
+    font-size: 18px;
+  }
+
+  .secondary-button {
+    font-size: 18px;
+  }
+
+  .btn-group {
+    margin: 3px 3px;
   }
 }
