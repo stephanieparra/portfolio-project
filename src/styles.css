@@ -41,6 +41,7 @@ a {
 .hero {
   padding-bottom: 100px;
   margin: 0;
+  background: var(--branding-color);
 }
 
 .view-work {
@@ -52,11 +53,18 @@ a {
   font-size: 24px;
 }
 
-.highlight {
+.highlight-1 {
   background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
   background-repeat: no-repeat;
-  background-size: 100% 10%;
-  background-position: 0 85%;
+  background-size: 32% 10%;
+  background-position: 0 77%;
+}
+
+.highlight-2 {
+  background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
+  background-repeat: no-repeat;
+  background-size: 25% 10%;
+  background-position: 0 77%;
 }
 
 .section-title {
