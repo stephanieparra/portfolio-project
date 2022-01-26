@@ -65,7 +65,7 @@ a {
 .highlight-2 {
   background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
   background-repeat: no-repeat;
-  background-size: 25% 10%;
+  background-size: 32% 10%;
   background-position: 0 77%;
 }
 
@@ -150,6 +150,7 @@ a {
   text-decoration-color: var(--secondary-color);
   font-size: 18px;
   margin-left: 56px;
+  font-weight: bold;
 }
 
 .view-resume:hover {
@@ -162,10 +163,16 @@ a {
 
 .skills-header {
   margin-bottom: 55px;
+  font-weight: normal;
+  background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
+  background-repeat: no-repeat;
+  background-size: 57% 37%;
+  background-position: 201px 107%;
 }
 
 .row-skills {
-  font-size: 60px
+  font-size: 60px;
+  color: var(--default-color);
 }
 
 /* Media Queries*/
