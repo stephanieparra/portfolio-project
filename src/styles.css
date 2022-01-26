@@ -156,6 +156,14 @@ a {
   color: var(--secondary-color);
 }
 
+.skills-section {
+  margin: 180px;
+}
+
+.skills-header {
+  margin-bottom: 55px;
+}
+
 /* Media Queries*/
 
 @media (max-width: 900px) {
