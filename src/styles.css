@@ -48,9 +48,11 @@ a {
   padding-top: 90px;
   font-family: var(--heading-font-family);
   color: var(--default-color);
-  text-decoration: underline;
-  text-decoration-color: var(--secondary-color);
   font-size: 24px;
+  background: linear-gradient(120deg, #c847d0 0%, #c847d0 100%);
+  background-repeat: no-repeat;
+  background-size: 23% 3%;
+  background-position: 545px 77%;
 }
 
 .highlight-1 {
