@@ -164,6 +164,10 @@ a {
   margin-bottom: 55px;
 }
 
+.row-skills {
+  font-size: 60px
+}
+
 /* Media Queries*/
 
 @media (max-width: 900px) {
