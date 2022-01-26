@@ -140,7 +140,7 @@ a {
 .profile-pic {
   border-radius: 4px;
   height: 320px;
-  margin: 225px 0 0 200px;
+  margin: 225px 0 0 188px;
 }
 
 .view-resume {
@@ -150,6 +150,10 @@ a {
   text-decoration-color: var(--secondary-color);
   font-size: 18px;
   margin-left: 56px;
+}
+
+.view-resume:hover {
+  color: var(--secondary-color);
 }
 
 /* Media Queries*/
@@ -164,6 +168,27 @@ a {
   h2 {
     font-size: 25px;
     text-align: center;
+  }
+
+  .about-section-hero {
+    text-align: center;
+  }
+
+  .about-section-hero h1 {
+    margin: 45px;
+    font-size: 30px;
+  }
+
+  .about-section-hero p {
+    padding: 0px;
+  }
+
+  .profile-pic {
+    max-width: 100%;
+    height: 180px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
   }
 
   .view-work {
