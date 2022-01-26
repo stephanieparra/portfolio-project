@@ -244,7 +244,18 @@ a {
   }
 
   .skills-section {
-    margin-top: 50px;
     text-align: center;
+    margin: 55px 30px;
+  }
+
+  .skills-header {
+    background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 37%;
+    background-position: 1px 107%;
+  }
+
+  .col-lg-4.text-center {
+    max-width: 33%;
   }
 }
