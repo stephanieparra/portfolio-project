@@ -124,6 +124,32 @@ a {
   font-style: italic;
 }
 
+/*About Page*/
+
+.about-section-hero h1 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+.about-section-hero p {
+  padding-left: 57px;
+}
+
+.profile-pic {
+  border-radius: 4px;
+  height: 320px;
+  margin: 225px 0 0 200px;
+}
+
+.view-resume {
+  font-family: var(--heading-font-family);
+  color: var(--default-color);
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+  font-size: 18px;
+  margin-left: 56px;
+}
+
 /* Media Queries*/
 
 @media (max-width: 900px) {
