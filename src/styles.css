@@ -182,6 +182,16 @@ a {
   color: var(--default-color);
 }
 
+/* Work Page */
+
+.content h3 {
+  margin: 20px;
+}
+
+.content img {
+  border-radius: 4px;
+}
+
 /* Media Queries*/
 
 @media (max-width: 900px) {
