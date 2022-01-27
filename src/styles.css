@@ -46,14 +46,26 @@ a {
   color: var(--default-color);
 }
 
-.nav-name a:hover {
-  color: var(--default-color);
+.navbar-nav a {
+  font-family: var(--heading-font-family);
+  font-size: 20px;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+  text-decoration-color: var(--branding-color);
+
+}
+
+.nav-item {
+  padding: 0 10px;
 }
 
 .navbar-brand {
   font-family: var(--heading-font-family);
   font-size: 25px;
   font-weight: bold;
+  padding: 0;
 }
 
 .hero {
