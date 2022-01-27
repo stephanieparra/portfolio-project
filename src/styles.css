@@ -46,47 +46,9 @@ a {
   color: var(--default-color);
 }
 
-nav {
-  padding: 20px 0;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 40px;
-  margin-left: 30px;
-  font-family: var(--heading-font-family);
-  text-transform: initial;
-  font-size: 20px;
-}
-
-nav a {
-  text-decoration: none
-  color: var(--default-color);
-}
-
-nav a:hover {
-  color: var(--secondary-color);
-  transition: all 100ms ease-in-out;
-}
-
-nav li.active a {
-  text-decoration: underline;
-  text-decoration-color: var(--branding-color);
-
-}
- 
-
 .nav-name a:hover {
   color: var(--default-color);
 }
-
-/*About navbar*/
 
 .navbar-brand {
   font-family: var(--heading-font-family);
