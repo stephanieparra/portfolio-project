@@ -17,8 +17,8 @@ h1 {
   color: var(--heading-color);
   font-family: var(--heading-font-family);
   font-weight: normal;
-  font-size: 45px;
-  margin: 130px 50px 30px 50px;
+  font-size: 44px;
+  margin: 105px 50px 30px 50px;
 }
 
 h2 {
@@ -80,13 +80,18 @@ nav li.active a {
   text-decoration-color: var(--branding-color);
 
 }
-
-.nav-name {
-  max-width: 150px;
-}
+ 
 
 .nav-name a:hover {
   color: var(--default-color);
+}
+
+/*About navbar*/
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .hero {
@@ -313,9 +318,5 @@ nav li.active a {
     background-repeat: no-repeat;
     background-size: 100% 37%;
     background-position: 1px 107%;
-  }
-
-  .col-lg-4.text-center {
-    max-width: 33%;
   }
 }
