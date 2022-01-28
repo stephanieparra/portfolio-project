@@ -339,6 +339,23 @@ a.open-sourced:hover {
   }
 
   footer .email-link {
-    font-size: 18px;
+    font-size: 14px;
+  }
+
+  footer .social-links a {
+    margin: 28px 10px;
+    color: #000;
+    font-size: 25px;
+    background-color: #f1eff1;
+    border-radius: 50%;
+    padding: 14px 22px;
+    transition: all 100ms ease-in-out;
+  }
+
+  #copyright {
+    font-family: var(--default-font-family);
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
   }
 }
