@@ -46,6 +46,40 @@ a {
   color: var(--default-color);
 }
 
+footer {
+  margin-top: 60px;
+  max-width: 100%;
+  background: #ffffff;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  text-align: center;
+  font-family: var(--heading-font-family);
+  margin: 30px;
+  font-weight: bold;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 30px 20px;
+  color: #000;
+  font-size: 45px;
+  background-color: #f1eff1;
+  border-radius: 50%;
+  padding: 10px 22px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background: var(--branding-color);
+}
+
 .navbar-nav a {
   font-family: var(--heading-font-family);
   font-size: 20px;
@@ -290,5 +324,9 @@ a {
     background-repeat: no-repeat;
     background-size: 100% 37%;
     background-position: 1px 107%;
+  }
+
+  footer .email-link {
+    font-size: 18px;
   }
 }
