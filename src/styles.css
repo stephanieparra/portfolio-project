@@ -225,7 +225,7 @@ a.open-sourced:hover {
 }
 
 .skills-section {
-  margin: 180px;
+  margin: 126px 20px 85px;
 }
 
 .skills-header {
@@ -233,8 +233,8 @@ a.open-sourced:hover {
   font-weight: normal;
   background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
   background-repeat: no-repeat;
-  background-size: 57% 37%;
-  background-position: 201px 107%;
+  background-size: 45% 37%;
+  background-position: 344px 107%;
 }
 
 .row-skills {
@@ -328,6 +328,7 @@ a.open-sourced:hover {
 
   .skills-section {
     text-align: center;
+    margin-top: 85px;
   }
 
   .skills-header {
