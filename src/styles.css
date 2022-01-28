@@ -54,7 +54,6 @@ a {
 .nav-link.active {
   text-decoration: underline;
   text-decoration-color: var(--branding-color);
-
 }
 
 .nav-item {
@@ -282,7 +281,9 @@ a {
     margin: 15px 0px 0px 0px;
   }
 
-  
+  .skills-section {
+    text-align: center;
+  }
 
   .skills-header {
     background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
