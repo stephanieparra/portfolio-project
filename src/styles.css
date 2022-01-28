@@ -80,6 +80,10 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+a.open-sourced:hover {
+  color: var(--branding-color);
+}
+
 .navbar-nav a {
   font-family: var(--heading-font-family);
   font-size: 20px;
