@@ -93,6 +93,9 @@ a.open-sourced:hover {
   padding: 0 10px;
 }
 
+.nav-link.active {
+  text-decoration-color: var(--branding-color);
+}
 .nav-item:hover {
   text-decoration: underline;
   text-decoration-color: var(--branding-color);
@@ -108,6 +111,14 @@ a.open-sourced:hover {
 .hero {
   padding-bottom: 100px;
   margin: 0;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .view-work {
@@ -187,7 +198,7 @@ a.open-sourced:hover {
   border-radius: 7px;
 }
 
-/*About Page*/
+/*About Section*/
 
 .about-section-hero h1 {
   margin-bottom: 50px;
