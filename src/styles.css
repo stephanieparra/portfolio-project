@@ -198,6 +198,42 @@ a.open-sourced:hover {
   border-radius: 7px;
 }
 
+.github-repo-link {
+  background: var(--fourth-color);
+  border: 4px solid var(--secondary-color);
+  border-radius: 4px;
+  color: var(--default-color);
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  line-height: 27px;
+  padding: 8px 20px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.github-repo-link:hover {
+  color: var(--default-color);
+  background: var(--secondary-color);
+  border: 4px solid var(--fourth-color);
+}
+
+.live-version-link {
+  background: var(--fourth-color);
+  border: 4px solid var(--secondary-color);
+  border-radius: 4px;
+  color: var(--default-color);
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  line-height: 27px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.live-version-link:hover {
+  color: var(--default-color);
+  background: var(--secondary-color);
+  border: 4px solid var(--fourth-color);
+}
 
 /*About Section*/
 
