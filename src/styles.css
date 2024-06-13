@@ -129,11 +129,12 @@ a {
 /* Section Title Styling */
 
 .section-title {
-  font-size: 40px;
-  font-weight: bold;
+  color: #000;
+  font-size: 50px;
   font-family: var(--heading-font-family);
   padding: 125px 20px 50px 20px;
-  text-decoration: underline;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  text-decoration: underline #cc99fe;
 }
 
 
