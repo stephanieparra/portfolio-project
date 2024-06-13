@@ -133,21 +133,9 @@ a {
   font-weight: bold;
   font-family: var(--heading-font-family);
   padding: 125px 20px 50px 20px;
+  text-decoration: underline;
 }
 
-.highlight-1 {
-  background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
-  background-repeat: no-repeat;
-  background-size: 32% 10%;
-  background-position: 0 77%;
-}
-
-.highlight-2 {
-  background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
-  background-repeat: no-repeat;
-  background-size: 32% 10%;
-  background-position: 0 77%;
-}
 
 /* Project Section: Card Styling */
 
