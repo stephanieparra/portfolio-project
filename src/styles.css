@@ -1,6 +1,6 @@
 :root {
   --heading-font-family: "Space Mono", monospace;
-  --default-font-family: "Spectral", serif;
+  --default-font-family: "Source Sans 3", sans-serif;
   --heading-color: #000;
   --default-color: #000;
   --branding-color: #faa28c;
@@ -27,14 +27,14 @@ h2 {
   color: var(--heading-color);
   font-size: 40px;
   font-family: var(--heading-font-family);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 h3 {
   color: var(--heading-color);
   font-size: 25px;
   font-family: var(--heading-font-family);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 p {
@@ -152,6 +152,7 @@ a {
   text-align: center;
   margin: 20px 0 40px 0;
   text-decoration: underline #cc99fe;
+  font-weight: normal;
 }
 
 .card-text {
@@ -163,6 +164,7 @@ a {
 }
 
 .skills-used {
+  font: var(--default-font-family);
   list-style-type: none;
   padding: 0;
   display: flex;
