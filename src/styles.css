@@ -148,6 +148,24 @@ a.open-sourced:hover {
   text-decoration: underline #cc99fe;
 }
 
+.skills-used {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.skills-used li {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  background-color: #c7f4f1;
+  color: #000;
+  border-radius: 25px;
+  font-size: 16px;
+  text-align: center;
+}
+
 .secondary-button {
   background: var(--fourth-color);
   border: 4px solid var(--secondary-color);
