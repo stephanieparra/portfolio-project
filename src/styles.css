@@ -225,11 +225,11 @@ a {
 .about-section-hero h1 {
   margin-bottom: 50px;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .about-section-hero p {
-  padding-left: 57px;
+  padding-left: 10px;
 }
 
 .profile-pic {
@@ -241,16 +241,7 @@ a {
 /* Skills Section */
 
 .skills-section {
-  margin: 126px 20px 85px;
-}
 
-.skills-header {
-  margin-bottom: 55px;
-  font-weight: normal;
-  background: linear-gradient(120deg, #faa28c 0%, #faa28c 100%);
-  background-repeat: no-repeat;
-  background-size: 45% 37%;
-  background-position: 344px 107%;
 }
 
 .row-skills {
