@@ -104,13 +104,16 @@ a {
 .primary-button, .secondary-button {
   padding: 10px 20px; 
   text-decoration: none;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   transition: background-color 0.3s ease; 
   font-family: var(--heading-font-family);
   font-size: 1rem;
   line-height: 27px;
+  min-width: 100px;
+  margin: 20px;
 }
 
 .primary-button {
@@ -196,17 +199,29 @@ a {
   text-align: center;
 }
 
-.github-repo-link {
-  background: var(--fourth-color);
-  border: 4px solid var(--secondary-color);
+.card-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.github-repo-link, .live-version-link {
+  display: inline-block;
   border-radius: 4px;
-  color: var(--default-color);
-  font-family: var(--heading-font-family);
   font-size: 16px;
   line-height: 27px;
   padding: 8px 20px;
   text-decoration: none;
   margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.github-repo-link {
+  background: var(--fourth-color);
+  border: 4px solid var(--secondary-color);
+  color: var(--default-color);
+  font-family: var(--heading-font-family);
 }
 
 .github-repo-link:hover {
@@ -218,13 +233,8 @@ a {
 .live-version-link {
   background: var(--tertiary-color);
   border: 4px solid var(--branding-color);
-  border-radius: 4px;
   color: var(--default-color);
   font-family: var(--heading-font-family);
-  font-size: 16px;
-  line-height: 27px;
-  padding: 8px 10px;
-  text-decoration: none;
 }
 
 .live-version-link:hover {
