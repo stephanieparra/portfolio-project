@@ -1,5 +1,5 @@
 :root {
-  --heading-font-family: "Space Mono", monospace;
+  ---font-family: "Space Mono", monospace;
   --default-font-family: "Source Sans 3", sans-serif;
   --heading-color: #000;
   --default-color: #000;
@@ -80,14 +80,21 @@ a {
 .hero {
   padding-bottom: 100px;
   margin: 0;
+  text-align: center;
 }
 
 .hero-buttons {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
-  margin-top: 50px;
+  margin: 0 10px 10px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-group {
+  margin: 20px 30px;
 }
 
 .primary-button {
@@ -96,9 +103,9 @@ a {
   border-radius: 4px;
   color: var(--default-color);
   font-family: var(--heading-font-family);
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -114,9 +121,9 @@ a {
   border-radius: 4px;
   color: var(--default-color);
   font-family: var(--heading-font-family);
-  font-size: 20px;
+  font-size: 1rem;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -234,9 +241,8 @@ a {
 
 .profile-pic {
   border-radius: 4px;
-   height: 320px;
+  height: 320px;
   margin: 230px 0 0 188px;
-
 }
 
 /* Skills Section */
@@ -245,10 +251,20 @@ a {
   margin-bottom: 70px;
 }
 
+.skills-section .row-skills {
+    margin-top: 20px; /* Add margin to separate skill rows */
+}
+
+.skills-section .col-2 {
+    margin-bottom: 20px; /* Add margin-bottom to separate individual skill items */
+}
+
 .row-skills {
   font-size: 60px;
   color: var(--default-color);
 }
+
+
 
 /* Footer */
 
@@ -298,6 +314,18 @@ a.open-sourced:hover {
 }
 
 /* Media Queries*/
+
+@media (max-width: 576px) {
+  .hero-buttons a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skills-section .col-2 {
+        width: 50%; /* Make skills 50% width on mobile */
+        margin-bottom: 20px; /* Ensure adequate spacing */
+    }
+}
 
 @media (max-width: 900px) {
   h1 {
