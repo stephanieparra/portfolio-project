@@ -78,7 +78,7 @@ a {
 /* Hero Section */
 
 .hero {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   margin: 0;
   text-align: center;
 }
@@ -148,7 +148,7 @@ a {
   color: #000;
   font-size: 50px;
   font-family: var(--heading-font-family);
-  padding: 125px 20px 50px 20px;
+  padding: 100px 20px 10px 20px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
   text-decoration: underline #cc99fe;
 }
@@ -245,20 +245,19 @@ a {
 
 /*About Section*/
 
-.about-section-hero h1 {
-  margin-bottom: 50px;
-  font-size: 40px;
-  font-weight: normal;
-}
-
-.about-section-hero p {
-  padding-left: 10px;
+.about-section p {
+  padding: 50px;
+  margin: 0 auto;
 }
 
 .profile-pic {
   border-radius: 4px;
   height: 320px;
-  margin: 230px 0 0 188px;
+  max-width: 100%;
+  display: inline-block; /* Ensure the image behaves as an inline block */
+  vertical-align: middle; /* Vertically align the image */
+  margin-top: 52px;
+  margin-left: 190px;
 }
 
 /* Skills Section */
@@ -338,10 +337,40 @@ a.open-sourced:hover {
     }
 
     .skills-section .col-2 {
-        width: 50%; /* Make skills 50% width on mobile */
-        margin-bottom: 20px; /* Ensure adequate spacing */
+        width: 50%;
+        margin-bottom: 20px;
     }
 }
+
+/* Media Query for iPad Mini and iPad Air */
+@media (max-width: 1024px) {
+  .row-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Adjust gap between items */
+  }
+  
+  .row-skills .col-2 {
+    width: 20%; /* Adjust width of each skill item */
+    text-align: center;
+  }
+
+  .skill-title {
+    margin-top: 10px; /* Add margin between icon and title */
+    font-size: 14px; /* Adjust font size */
+  }
+}
+
+/* Media Query specifically for iPad Air */
+@media (max-width: 1180px) {
+  .row-skills .col-2 {
+    width: 25%; /* Adjust width of each skill item */
+  }
+}
+
+
+
 
 @media (max-width: 900px) {
   h1 {
@@ -363,7 +392,7 @@ a.open-sourced:hover {
 
   .section-title {
     font-size: 25px;
-    padding-top: 30px;
+    padding-top: 20px;
     text-align: center;
   }
 
@@ -379,17 +408,12 @@ a.open-sourced:hover {
     margin: 3px 3px;
   }
 
-  .about-section-hero {
+  .about-section {
     text-align: center;
   }
 
-  .about-section-hero h1 {
-    margin: 45px;
-    font-size: 30px;
-  }
-
-  .about-section-hero p {
-    padding: 10px;
+  .about-section p {
+    padding-left: 50px;
   }
 
   .profile-pic {
