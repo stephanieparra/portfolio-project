@@ -84,7 +84,7 @@ a {
 }
 
 .hero h1 {
-  margin-bottom: 30px; /* Add some space between the heading and the buttons */
+  margin-bottom: 30px;
 }
 
 .hero-buttons {
@@ -246,17 +246,17 @@ a {
 /*About Section*/
 
 .about-section {
-  text-align: center; /* Center align content */
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Arrange children in a column */
-  align-items: center; /* Center items horizontally */
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
 }
 
 
 .about-section p {
   padding: 30px;
-  margin: 0 auto; /* Center the paragraph horizontally */
-  max-width: 600px; /* Limit paragraph width for readability */
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 
@@ -264,7 +264,7 @@ a {
   border-radius: 4px;
   height: 320px;
   max-width: 100%;
-  margin-top: 20px; /* Adjust top margin */
+  margin-top: 20px;
 }
 
 
@@ -275,11 +275,11 @@ a {
 }
 
 .skills-section .row-skills {
-    margin-top: 20px; /* Add margin to separate skill rows */
+    margin-top: 20px;
 }
 
 .skills-section .col-2 {
-    margin-bottom: 10px; /* Add margin-bottom to separate individual skill items */
+    margin-bottom: 10px;
 }
 
 .col-2 .skill-title {
@@ -358,34 +358,34 @@ a.open-sourced:hover {
   .row-skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center items horizontally */
-    gap: 20px; /* Adjust gap between items */
+    justify-content: center;
+    gap: 20px;
   }
   
   .row-skills .col-2 {
-    width: 20%; /* Adjust width of each skill item */
+    width: 20%;
     text-align: center;
   }
 
   .skill-title {
-    margin-top: 10px; /* Add margin between icon and title */
-    font-size: 14px; /* Adjust font size */
+    margin-top: 10px;
+    font-size: 14px;
   }
 }
 
 /* Media Query specifically for iPad Air */
 @media (max-width: 1180px) {
   .row-skills .col-2 {
-    width: 25%; /* Adjust width of each skill item */
+    width: 25%; 
   }
 }
 
 /* Media Query for iPad Pro */
 @media (max-width: 1024px) and (max-height: 1366px) {
   .about-section {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center align items horizontally */
-    text-align: center; /* Center align text */
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
   }
 
   #about {
@@ -393,30 +393,30 @@ a.open-sourced:hover {
 }
 
 .section-title {
-    text-align: center; /* Center align the title */
-    padding-top: 50px; /* Adjust top padding if needed */
+    text-align: center; 
+    padding-top: 50px; 
   }
 
   .about-section p {
-    max-width: 80%; /* Adjust paragraph width for readability */
-    margin: 20px auto; /* Center align paragraph with margin */
+    max-width: 80%; 
+    margin: 20px auto; 
   }
 
   .profile-pic {
-    max-width: 100%; /* Ensure image does not overflow */
-    margin-top: 20px; /* Adjust top margin for spacing */
+    max-width: 100%; 
+    margin-top: 20px; 
   }
 
   .row-skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center items horizontally */
+    justify-content: center; 
   }
   
   .row-skills .col-2 {
-    width: 15%; /* Adjust width of each skill item */
+    width: 15%; 
     text-align: center;
-    margin-bottom: 10px; /* Add margin-bottom to separate individual skill items */
+    margin-bottom: 10px; 
   }
 
   .skill-title {
@@ -428,12 +428,12 @@ a.open-sourced:hover {
 
 @media (min-width: 912px) and (max-width: 1368px) {
   .about-section {
-    justify-content: center; /* Center align content vertically */
+    justify-content: center; 
   }
 
   .section-title {
-    text-align: center; /* Center align the title */
-    padding-top: 50px; /* Adjust top padding if needed */
+    text-align: center; 
+    padding-top: 50px; 
   }
 
   .profile-pic {
@@ -444,18 +444,18 @@ a.open-sourced:hover {
 
 @media (min-width: 992px) {
   .about-section {
-    display: flex; /* Use flexbox for desktop layout */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
   }
 
   .about-section p {
-    flex: 1; /* Allow paragraph to grow as needed */
-    text-align: left; /* Align text to the left within flex container */
+    flex: 1; 
+    text-align: left; 
   }
 
   .profile-pic {
-    margin: 0; /* Remove margin from image */
+    margin: 0; 
   }
 }
 
