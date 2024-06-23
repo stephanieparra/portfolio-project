@@ -279,11 +279,13 @@ a {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .skill-icon {
   font-size: 3rem;
   margin-bottom: 10px;
+  display: block;
 }
 
 .skill-title {
