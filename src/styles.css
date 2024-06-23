@@ -11,7 +11,7 @@
 
 /* Global Styles */
 
-body {
+body, html {
   background-color: #f1eff1;
   overflow-x: hidden;
 }
@@ -300,6 +300,16 @@ a {
   justify-content: center;
 }
 
+.row.row-skills {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.row-skills > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 /* Footer */
 
 footer {
@@ -358,6 +368,10 @@ a.open-sourced:hover {
     .skills-section .col-2 {
       width: 1%;
       margin-bottom: 20px;
+    }
+
+    .skill-title p {
+      padding-left: 30px;
     }
 }
 
@@ -528,6 +542,10 @@ a.open-sourced:hover {
     background-repeat: no-repeat;
     background-size: 100% 37%;
     background-position: 1px 107%;
+  }
+
+  .skill-title {
+    padding-left: 30px;
   }
 
   footer {
