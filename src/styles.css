@@ -458,7 +458,7 @@ a.open-sourced:hover {
   .skill-title {
     text-align: center;
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 3px;
   }
 }
 
@@ -548,10 +548,6 @@ a.open-sourced:hover {
   .skills-section {
     text-align: center;
     margin-top: 85px;
-  }
-
-  .skill-title {
-    padding-left: 30px;
   }
 
   footer {
