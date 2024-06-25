@@ -254,6 +254,10 @@ a {
   align-items: center;
 }
 
+#about {
+  padding-left: 160px;
+}
+
 .about-section p {
   padding: 30px;
   margin: 0 auto;
